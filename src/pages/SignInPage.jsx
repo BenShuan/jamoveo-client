@@ -14,7 +14,7 @@ import useAuth from '../utilis/useAuth';
 import { Alert, CircularProgress, Snackbar } from '@mui/material';
 import { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-import SignInContainer from '../components/signInContainer';
+import SignInContainer from '../components/SignInContainer';
 import { userSchema } from '../utilis/Schemas';
 import { useForm } from "react-hook-form"
 
@@ -120,7 +120,7 @@ export default function SignIn(props) {
             Don&apos;t have an account?{' '}
             <span>
               <NavLink
-                to="/player-register"
+                to="/register/player"
                 variant="body2"
                 sx={{ alignSelf: 'center' }}
               >
