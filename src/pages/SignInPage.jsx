@@ -12,7 +12,7 @@ import useAuth from '../utilis/useAuth';
 import { Alert, CircularProgress, Snackbar } from '@mui/material';
 import { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-import SignInContainer from '../components/signInContainer';
+import SignInContainer from '../components/SignInContainer';
 import { userSchema } from '../utilis/Schemas';
 import { useForm } from "react-hook-form"
 

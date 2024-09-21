@@ -1,5 +1,5 @@
 import React from 'react'
-import SignInContainer from '../../components/signInContainer'
+import SignInContainer from '../../components/SignInContainer'
 import { Typography } from '@mui/material'
 
 const MainPalyerPage = () => {
