@@ -2,9 +2,7 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import Checkbox from '@mui/material/Checkbox';
 import FormControlLabel from '@mui/material/FormControlLabel';
-import FormLabel from '@mui/material/FormLabel';
-import FormControl from '@mui/material/FormControl';
-import Link from '@mui/material/Link';
+
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
 import { useState } from 'react';
@@ -14,7 +12,7 @@ import useAuth from '../utilis/useAuth';
 import { Alert, CircularProgress, Snackbar } from '@mui/material';
 import { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-import SignInContainer from '../components/SignInContainer';
+import SignInContainer from '../components/signInContainer';
 import { userSchema } from '../utilis/Schemas';
 import { useForm } from "react-hook-form"
 
