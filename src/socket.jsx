@@ -1,3 +1,3 @@
 import { io } from 'socket.io-client';
 
-export const socket = io("wss://immense-bayou-69622-27b3bda0f510.herokuapp.com");
+export const socket = io("wss://jamoveo-server-b0403b9b25f9.herokuapp.com/");
